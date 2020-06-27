@@ -1,0 +1,304 @@
+*{margin:0; padding:0;}
+p{line-height:25px;}
+*{box-sizing:border-box;}
+#slider{
+	background:url(img/business.jpg) no-repeat;
+	background-size:cover;
+	 
+}
+.overlay{
+	margin:0px;
+	padding:0px;
+	background-color:rgba(0, 0, 0, .2);
+}
+.container{
+	max-width:1170px;
+	margin:0 auto;
+	overflow:hidden;
+	padding-left:20px;
+	padding-right:20px;
+}
+.template{overflow:hidden;}
+.slider-top{
+	margin-top: 20px;
+}
+.logo{
+	width:20%;
+	float:left;
+}
+.logo img{
+	width: 84px;
+}
+.menu {
+    float: right;
+    margin-right: 22px;
+    margin-top: 28px;
+}
+.menu ul{
+   margin:0px;
+   padding:0px;
+}
+.menu ul li{
+	float:left;
+	list-style:none;  
+	margin-bottom:10px;
+}
+.menu ul li a{
+	text-decoration: none;
+    font-size: 20px;
+    padding: 10px 20px;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+.menu ul li a:hover{
+	color:#88D280;
+	font-family:'Roboto'sans-serif;
+}
+.slider-content{
+	padding:200px 0px;
+	text-align: center;
+	color: #fff;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+.slider-content h2{
+	font-size: 36px;
+	margin-bottom: 10px;
+}
+.slider-content h1{
+	font-size: 51PX;
+	border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    border-left: 2px solid #fff;
+    border-right: 2px solid #fff;
+	width: 358px;
+    display: inline-block;
+    padding: 10px 10px;
+	margin-bottom: 10px;
+	border-radius: 64px;
+}
+.slider-content h3{
+	font-size: 20px;
+}
+#abouts-us{
+	color:#ACAAAC;
+}
+.abouts-top{
+	text-align:center;
+	padding:30px;
+}
+.abouts-top h2{
+	font-size:30px;
+    text-transform: uppercase;
+}
+.abouts-top p{
+    padding: 5px;
+    max-width: 700px;
+    margin: 0 auto;	
+}
+.about-content{
+	text-align:center;
+	
+}
+.about{
+	width:25%;
+	float:left;
+	padding: 20px 0px;
+}
+.about i{
+	 font-size: 34px;
+	 margin-bottom: 12px;
+}
+.about:hover i,.about:hover h2{
+	
+	color:#88D280;
+	cursor:pointer;
+}
+#active{
+	color:#88D280;
+}
+.about h2{
+    text-transform: uppercase;
+    font-size: 22px;	
+}
+.about p{
+	padding: 10px;
+    text-align: justify;
+}
+#service{
+	background:#F8F6F8;
+  height: 100%;;
+	 
+}
+.services-top{
+    text-align: center;
+    padding-top: 20px;	
+	padding-bottom: 18px;
+	color:#AAA;
+}
+.services-top h2{
+    text-transform: uppercase;
+    font-size: 30px;	
+}
+.services-top p{
+    font-size: 18px;
+   max-width: 600px;
+    margin: 0 auto;	
+}
+.services-content{
+	
+}
+.services{
+	width: 25%;
+	float: left;	
+    margin-bottom:20px;
+	
+}
+.services img{
+    width: 238px;
+    height: 212px;
+	padding: 0px 5px;	
+	 
+}
+#contact-us{
+	padding:100px 0px;
+}
+.contact-top{
+	color:#9E9D9E;
+	text-align: center;
+	margin-top:10px;
+}
+.contact-top p{
+    width: 672px;
+    margin: 0 auto;	
+}
+.contact-top h2{ 
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    font-size: 34px;
+
+}
+.contact-content{
+	
+}
+.contact-single{
+    width: 33.33%;
+    float: left;	
+	color: #AAA;
+	text-align: center;
+	margin-top: 25px;
+	margin-bottom:25px;
+	 
+}
+.contact-single:hover i, .contact-single:hover h2,.contact-single:hover h3 {
+    color: #86D580;
+}
+.contact-single i{
+    
+    font-size: 51px;
+	margin-bottom:20px;
+}
+.contact-single h2{
+	margin-bottom:10px;
+	text-transform: uppercase;
+}
+.contact-single h3{
+	
+}
+.contact-form{
+    width: 50%;
+    float: left;
+	padding-right:15px;	
+}
+.contact-form input {
+    width: 100%;
+    padding: 12px 13px;
+    margin-bottom: 12px;
+    
+}
+.form{
+	clear:both;
+}
+.message{
+  width: 50%;
+  float:right;
+}
+.message textarea{
+	height: 105px;
+    width: 91%;
+    padding: 36px 20px;
+}
+.message input {
+    padding: 7px 12px;
+	margin-top: 9px;
+    color: #000;
+    background: #86D580;
+	text-transform: uppercase;
+	cursor:pointer;
+    border-radius: 3px;
+    border: 2px solid #9797ab80;
+}
+.message input:hover{
+    color: #fff;
+    background: #176611;
+}
+#social-icon{
+    background: #000;
+    text-align: center;	
+	padding:20px 0px;
+}
+.social-icons{
+
+}
+.social-icons i{
+    color: #fff;
+    font-size: 24px; 
+    width: 50px;
+    height: 50px;
+    line-height: 53px;
+    border-radius: 50%;
+}
+.fa-facebook-f{
+	background-color:#425596;
+}
+.fa-google{
+	background-color:#C4483B;
+}
+.fa-twitter{
+	background-color:#5CAADE;
+}
+.fa-youtube{
+	background-color:#FF0000;
+}
+.fa-invision{
+	background-color:#067AB9;
+}
+.fa-dribbble{
+	background-color:#2BAB6B;
+}
+footer{
+    text-align: center;
+    font-size: 17px;
+    background: #ddd;
+    padding: 5px 0px;	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

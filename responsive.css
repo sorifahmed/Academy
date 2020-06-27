@@ -1,0 +1,44 @@
+@media screen and (max-width:768px){
+	.about{width:50%}
+	 .contact-top h2{	margin-top: 146px;	}
+	.services {  width: 50%;float: left;}
+	.services img { width: 349px; height: 212px}
+   .contact-single {  width: 50%;}
+  
+}
+@media screen and (max-width:640px){
+
+	.services img { width: 283px;}
+    .slider-content h2 {font-size: 33px;}
+
+}
+@media screen and (max-width:480px){
+
+
+		.about { width: 100%;}
+		.services{width:100%;}
+		.services img { width: 100%}
+		.contact-single { width: 100%;}
+		.contact-form {width: 100%;}
+		.message {width: 100%;}
+		.message textarea {  width: 96.5%;}
+		.contact-top { margin-top: -149px;}
+		.contact-top p {   width: 432px;}
+
+ 
+    
+   
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
